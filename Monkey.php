@@ -8,9 +8,8 @@
 
 namespace zoo;
 
-class Monkey extends Animal
+class Monkey extends LandAnimal
 {
-    use Walking
 
     /**
      * Animal have to eat we have to describe how
@@ -18,14 +17,5 @@ class Monkey extends Animal
     public function eat()
     {
         // TODO: Implement eat() method.
-    }
-
-    /**
-     * Animal have to move. Each animal may move differently so we have
-     */
-    public function move()
-    {
-        //Let's assume that monkey can just walk
-        $this->walk();
     }
 }

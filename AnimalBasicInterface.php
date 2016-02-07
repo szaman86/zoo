@@ -16,7 +16,7 @@ interface AnimalBasicInterface
     public function eat();
 
     /**
-     * Animal have to move. Each animal may move differently so we have
+     * Animal have to move. Each animal may move differently. For simplicity I assume that
      */
     public function move();
 }

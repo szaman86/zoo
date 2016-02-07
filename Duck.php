@@ -10,25 +10,14 @@ namespace zoo;
 
 use zoo\Animal;
 
-class Duck extends Animal
+class Duck extends WaterAnimal
 {
-    use Flying;
-
-    public function eat()
-    {
-        // Moving method content
-    }
 
     /**
-     * To keep KISS attitude I assume that each animal have just one way of moving
+     * Animal have to eat we have to describe how
      */
-    public function move()
+    public function eat()
     {
-        $this->fly();
+        // TODO: Implement eat() method.
     }
-
-    public function SayHelloToAnimal() {
-        print "Hello " . $this->getName();
-    }
-
 }

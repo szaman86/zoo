@@ -8,20 +8,14 @@
 
 namespace zoo;
 
-class Bat extends Animal
+class Bat extends SkyAnimal
 {
-    use Flyable;
 
     /**
-     * Bat drink blood
+     * Animal have to eat we have to describe how
      */
     public function eat()
     {
-        // Moving method content
-    }
-
-    public function move()
-    {
-        $this->flying();
+        // TODO: Implement eat() method.
     }
 }
