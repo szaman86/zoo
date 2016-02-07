@@ -27,4 +27,8 @@ class Duck extends Animal
         $this->fly();
     }
 
+    public function SayHelloToAnimal() {
+        print "Hello " . $this->getName();
+    }
+
 }

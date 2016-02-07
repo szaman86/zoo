@@ -12,6 +12,9 @@ class Bat extends Animal
 {
     use Flyable;
 
+    /**
+     * Bat drink blood
+     */
     public function eat()
     {
         // Moving method content
