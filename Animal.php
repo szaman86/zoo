@@ -1,20 +1,14 @@
 <?php
 
-use zoo\basicAbilities;
+namespace zoo;
 
-abstract class Animal implements basicAbilities
+abstract class Animal implements AnimalBasicInterface
 {
     /**
      * Animal name
      * @var string
      */
     private $name;
-
-    /**
-     * Animal kind
-     * @var string
-     */
-    private $kind;
 
     /**
      * @return string
@@ -30,22 +24,6 @@ abstract class Animal implements basicAbilities
     public function setName($name)
     {
         $this->name = $name;
-    }
-
-    /**
-     * @return string
-     */
-    public function getKind()
-    {
-        return $this->kind;
-    }
-
-    /**
-     * @param string $kind
-     */
-    public function setKind($kind)
-    {
-        $this->kind = $kind;
     }
 }
 

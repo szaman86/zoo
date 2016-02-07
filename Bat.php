@@ -3,14 +3,12 @@
  * Created by PhpStorm.
  * User: bmarszal
  * Date: 07.02.16
- * Time: 17:13
+ * Time: 19:00
  */
 
 namespace zoo;
 
-use Animal;
-
-class Duck extends Animal
+class Bat extends Animal
 {
     use Flyable;
 
@@ -23,5 +21,4 @@ class Duck extends Animal
     {
         $this->flying();
     }
-
 }
