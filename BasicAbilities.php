@@ -9,7 +9,7 @@
 namespace zoo;
 
 
-interface basicAbilities
+interface BasicAbilities
 {
     public function eating();
     public function moving();
